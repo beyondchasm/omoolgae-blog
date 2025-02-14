@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: 소개 🙌🏻
 ---
+안녕하세요👋
+ 
+뭐라도 만드는 오물개입니다.
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
