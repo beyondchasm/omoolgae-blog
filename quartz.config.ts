@@ -9,10 +9,11 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "GTM-M4RQRSXF"
     },
     locale: "ko-KR",
-    baseUrl: "https://omoolgae-blog-myi6xc5p6-beyondchasms-projects.vercel.app", // ✅ 수정
+    baseUrl: "https://omoolgae-blog.vercel.app", // ✅ 수정
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
