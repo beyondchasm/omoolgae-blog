@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagId: "GTM-M4RQRSXF"
+      tagId: "G-WCMLLLLHW7"
     },
     locale: "ko-KR",
     baseUrl: "https://omoolgae-blog.vercel.app", // ✅ 수정
