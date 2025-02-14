@@ -80,7 +80,7 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        enableRSS: false, // ✅ RSS 비활성화
+        enableRSS: true, // ✅ RSS 비활성화
       }),
       Plugin.Assets(),
       Plugin.Static(),

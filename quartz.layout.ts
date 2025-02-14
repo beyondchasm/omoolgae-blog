@@ -47,7 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Explorer(),
-    Component.Hits(),
+    // Component.Hits(),
   ],
   right: [
     Component.Graph(),
