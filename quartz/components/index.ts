@@ -7,6 +7,7 @@ import Darkmode from "./Darkmode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
 import ProfileImage from "./ProfileImage"
+import Hits from "./Hits"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
@@ -31,6 +32,7 @@ export {
   Head,
   PageTitle,
   ProfileImage,
+  Hits,
   ContentMeta,
   Spacer,
   TableOfContents,

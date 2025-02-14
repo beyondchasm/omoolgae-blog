@@ -11,6 +11,7 @@ const ProfileImage: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCo
     <div class={ classNames(displayClass, "profile-image")}>
       <img src={`${profileImageDir}`} alt="Profile Image" />
     </div>
+    
   )
 }
 
