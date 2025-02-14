@@ -5,7 +5,23 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
 head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // data-repo
+        repo: 'beyondchasm/omoolgae-blog',
+        // data-repo-id
+        repoId: 'R_kgDON5SDfQ',
+        // data-category
+        category: 'Announcements',
+        // data-category-id
+        categoryId: 'DIC_kwDON5SDfc4Cm9Gy',
+        mapping: 'pathname',
+        darkTheme: 'true',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/beyondchasm",
