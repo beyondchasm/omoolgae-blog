@@ -14,7 +14,7 @@ const config: QuartzConfig = {
       tagId: "G-WCMLLLLHW7"
     },
     locale: "ko-KR",
-    baseUrl: "https://omoolgae-blog.vercel.app", // ✅ 수정
+    baseUrl: "omoolgae-blog.vercel.app", // ✅ 수정
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
