@@ -169,7 +169,7 @@ export default (() => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* OG/Twitter meta tags */}
         <meta name="keywords" content="개발, IT, 블로그, 프로그래밍, 오물개, 정적 사이트, Quartz" />
-        <meta name="naver-site-verification" content="네이버에서 발급받은 코드" />
+        <meta name="naver-site-verification" content="9dccd2b0c209407beed0535a667bf32d9b8ea09d" />
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={`${title} | 오물개의 블로그`} />
         <meta property="og:type" content="website" />

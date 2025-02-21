@@ -1,7 +1,6 @@
 import { QuartzEmitterPlugin } from "../types"
 import { FilePath, FullSlug } from "../../util/path"
 import { write } from "./helpers"
-import DepGraph from "../../depgraph"
 
 export const Robots: QuartzEmitterPlugin = () => {
   return {
@@ -9,9 +8,7 @@ export const Robots: QuartzEmitterPlugin = () => {
     getQuartzComponents() {
       return []
     },
-    async getDependencyGraph(_ctx, _content, _resources) {
-      return new DepGraph<FilePath>()
-    },
+
     async emit(ctx, _content, resources): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration
       const slug = "robots" as FullSlug
