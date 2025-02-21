@@ -76,6 +76,8 @@ export interface GlobalConfiguration {
    * Region Codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
    */
   locale: ValidLocale
+  keywords: string
+  
 }
 
 export interface QuartzConfig {
