@@ -83,9 +83,11 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true, // ✅ RSS 비활성화
       }),
+      Plugin.CNAME(),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      Plugin.Robots(),
     ],
   },
 }
