@@ -170,7 +170,7 @@ export default (() => {
         {/* OG/Twitter meta tags */}
         <meta name="keywords" content="개발, IT, 블로그, 프로그래밍, 오물개, 정적 사이트, Quartz" />
         <meta name="naver-site-verification" content="9dccd2b0c209407beed0535a667bf32d9b8ea09d" />
-        <meta name="google-site-verification" content="oRkToTWFRp0Q9UqOpL-gkxNcq3LWTucxMLPOfFPutcg" />
+        <meta name="google-site-verification" content="R62Qr2X_0cTd4VQcOMYEzAra6AV-5G2KvDIpxqWn41Q" />
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={`${title} | 오물개의 블로그`} />
         <meta property="og:type" content="website" />
