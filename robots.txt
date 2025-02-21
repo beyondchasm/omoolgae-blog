@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://omoolgae-blog.vercel.app/sitemap.xml
