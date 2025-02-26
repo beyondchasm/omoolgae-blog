@@ -6,7 +6,7 @@ const config: QuartzConfig = {
     profileImageDir : "/static/profile/profileImage.jpg",
     pageTitle: "오물개의 블로그 | 개발, IT, 그리고 뭐라도 만드는 이야기",
     pageTitleSuffix: "",
-    keywords: "개발, IT, 블로그, 프로그래밍, 오물개, 정적 사이트, Quartz",
+    keywords: "개발, IT, 블로그, 프로그래밍, 오물개, 정적 블로그, Quartz, 옵시디언",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -14,7 +14,7 @@ const config: QuartzConfig = {
       tagId: "G-WCMLLLLHW7"
     },
     locale: "ko-KR",
-    baseUrl: "omoolgae-blog.vercel.app", // ✅ 수정
+    baseUrl: "blog.omoolgae.site", // ✅ 수정
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
