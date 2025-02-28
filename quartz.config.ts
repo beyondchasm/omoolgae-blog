@@ -12,6 +12,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "google",
       tagId: "G-WCMLLLLHW7"
+      
     },
     locale: "ko-KR",
     baseUrl: "blog.omoolgae.site", // ✅ 수정

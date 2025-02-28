@@ -41,6 +41,7 @@ author: 오물개
 
 - 현재 **농구팀 모집 및 매칭 서비스**를 개발 중  
 - 최근 [MonkySurvive](https://monky-survive.vercel.app/) 만들었음.
+- [오물개 로또 시뮬레이션](https://omoolgae-lotto-sim.vercel.app/)도 만들었음.
 
 나머지도 저정도 수준의 **자잘한 사이드**를 깔짝 거리고 있음
 
