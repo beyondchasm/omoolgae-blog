@@ -89,6 +89,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
       Plugin.Robots(),
+      Plugin.Ads(),
     ],
   },
 }
